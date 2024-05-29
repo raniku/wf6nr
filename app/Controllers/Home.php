@@ -27,4 +27,9 @@ class Home extends BaseController
     {
         return view('contact');
     }
+
+    public function testing(): string
+    {
+        return "ini testing";
+    }
 }
